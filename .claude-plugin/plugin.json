@@ -1,6 +1,6 @@
 {
   "name": "ml-automation-nlp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "NLP and text analytics extension for ml-automation. Text preprocessing, embeddings, topic modeling, sentiment analysis, NER, and text classification.",
   "author": { "name": "Maximo Lorenzo y Losada" },
   "repository": "https://github.com/Maxilylm/ml-automation-nlp",
