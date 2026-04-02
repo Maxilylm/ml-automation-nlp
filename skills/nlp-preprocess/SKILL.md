@@ -2,7 +2,7 @@
 name: nlp-preprocess
 description: "Text preprocessing pipeline: tokenize, stem, lemmatize, clean HTML/URLs, remove stopwords, normalize whitespace. Configurable step-by-step pipeline with before/after statistics."
 aliases: [text cleaning, text normalization, tokenize, lemmatize, stopword removal]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

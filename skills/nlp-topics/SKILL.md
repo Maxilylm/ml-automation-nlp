@@ -2,7 +2,7 @@
 name: nlp-topics
 description: "Topic modeling: discover latent topics using LDA, BERTopic, or NMF. Automatic topic count selection, coherence scoring, and topic labeling."
 aliases: [topic modeling, lda, bertopic, nmf, discover topics, latent topics]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

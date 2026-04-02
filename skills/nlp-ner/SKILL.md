@@ -2,7 +2,7 @@
 name: nlp-ner
 description: "Named Entity Recognition pipeline: extract persons, organizations, locations, dates, and custom entities using spaCy, BERT, or rule-based methods."
 aliases: [named entity recognition, entity extraction, ner model, extract entities]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

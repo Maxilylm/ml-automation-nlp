@@ -1,4 +1,4 @@
-# ml-automation-nlp
+# spark-nlp
 
 NLP and text analytics extension for [ml-automation](https://github.com/Maxilylm/ml-automation-core).
 
@@ -11,7 +11,7 @@ NLP and text analytics extension for [ml-automation](https://github.com/Maxilylm
 ## Installation
 
 ```bash
-claude plugin add /path/to/ml-automation-nlp
+claude plugin add /path/to/spark-nlp
 ```
 
 ## What's Included

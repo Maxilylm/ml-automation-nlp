@@ -4,7 +4,7 @@ description: "Analyze text data: distributions, vocabulary, language detection, 
 model: sonnet
 color: "#F59E0B"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [nlp, text analysis, text data, corpus, vocabulary, language detection, text quality]
 hooks_into:
   - after-eda

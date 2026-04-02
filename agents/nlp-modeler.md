@@ -4,7 +4,7 @@ description: "Train NLP models: sentiment, classification, NER, topic modeling."
 model: sonnet
 color: "#B45309"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [sentiment analysis, text classification, ner, named entity, topic modeling, lda, text model]
 ---
 

@@ -2,7 +2,7 @@
 name: nlp-analyze
 description: "Text data EDA: vocabulary statistics, n-gram frequency analysis, document length distributions, language detection, and text quality assessment."
 aliases: [text eda, text analysis, corpus analysis, vocabulary analysis, text statistics]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

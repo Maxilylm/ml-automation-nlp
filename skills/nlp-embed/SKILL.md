@@ -2,7 +2,7 @@
 name: nlp-embed
 description: "Generate text embeddings using TF-IDF, Word2Vec, or Sentence Transformers. Includes embedding quality assessment and dimensionality reduction."
 aliases: [text embeddings, tfidf, word2vec, sentence embeddings, vectorize text]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

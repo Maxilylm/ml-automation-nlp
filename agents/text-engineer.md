@@ -4,7 +4,7 @@ description: "Feature engineering for text: embeddings, TF-IDF, tokenization, te
 model: sonnet
 color: "#D97706"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [text features, embeddings, tfidf, tokenization, text preprocessing, word2vec, sentence transformers]
 hooks_into:
   - after-feature-engineering

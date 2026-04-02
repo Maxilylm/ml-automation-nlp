@@ -2,7 +2,7 @@
 name: nlp-classify
 description: "Train text classifiers for sentiment, topic, or custom categories. Supports Logistic Regression, SVM, Naive Bayes, and BERT fine-tuning."
 aliases: [text classification, sentiment analysis, sentiment model, text classifier, classify text]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 
@@ -27,7 +27,7 @@ Train and evaluate text classifiers. Supports traditional ML models (Logistic Re
 
 ## Report Bus Integration
 
-The `nlp-modeler` agent writes `nlp_classify_report.json` to the report bus with keys: `model`, `accuracy`, `macro_f1`, `weighted_f1`, `per_class`, `confusion_matrix`, `cross_val_scores`, and `inference_script_path`. The core `ml-automation` orchestrator can read this report for end-to-end pipeline summaries.
+The `nlp-modeler` agent writes `nlp_classify_report.json` to the report bus with keys: `model`, `accuracy`, `macro_f1`, `weighted_f1`, `per_class`, `confusion_matrix`, `cross_val_scores`, and `inference_script_path`. The core `spark` orchestrator can read this report for end-to-end pipeline summaries.
 
 ## Full Specification
 

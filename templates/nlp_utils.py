@@ -1,7 +1,7 @@
 """
-NLP utilities for the ml-automation-nlp extension plugin.
+NLP utilities for the spark-nlp extension plugin.
 
-Requires ml_utils.py from the ml-automation core plugin to be present
+Requires ml_utils.py from the spark core plugin to be present
 in the same directory (copied via Stage 0 of NLP commands).
 """
 
