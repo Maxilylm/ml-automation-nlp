@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "NLP and text analytics extension for spark. Text preprocessing, embeddings, topic modeling, sentiment analysis, NER, and text classification.",
   "author": { "name": "Maximo Lorenzo y Losada" },
-  "repository": "https://github.com/Maxilylm/ml-automation-nlp",
+  "repository": "https://github.com/BLEND360/ml-automation-nlp",
   "license": "MIT",
   "keywords": ["nlp", "text-analytics", "sentiment", "topic-modeling", "ner", "embeddings", "text-classification", "spark-extension"],
   "dependencies": ["spark-core"]
