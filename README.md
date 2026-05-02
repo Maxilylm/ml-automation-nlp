@@ -18,11 +18,11 @@ claude plugin add /path/to/spark-nlp
 
 ### Agents
 
-| Agent | Purpose | Hooks Into |
-|---|---|---|
-| `nlp-analyst` | Text data analysis: distributions, vocabulary, language detection, quality assessment | `after-eda` |
-| `text-engineer` | Text feature engineering: embeddings, TF-IDF, tokenization, preprocessing pipelines | `after-feature-engineering` |
-| `nlp-modeler` | NLP model training: sentiment, classification, NER, topic modeling | *(direct invocation)* |
+| Agent | Purpose |
+|---|---|
+| `nlp-analyst` | Text data analysis: distributions, vocabulary, language detection, quality assessment |
+| `text-engineer` | Text feature engineering: embeddings, TF-IDF, tokenization, preprocessing pipelines |
+| `nlp-modeler` | NLP model training: sentiment, classification, NER, topic modeling |
 
 ### Commands
 
